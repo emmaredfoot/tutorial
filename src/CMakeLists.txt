@@ -1,0 +1,7 @@
+INCLUDE_DIRECTORIES(${CYCLUS_CORE_INCLUDE_DIRS} ${CYCLUS_CORE_TEST_INCLUDE_DIR})
+SET(CMAKE_CXX_STANDARD 11)
+
+install_cyclus_standalone("TutorialFacility" "tutorial_facility" "tutorial")
+install_cyclus_standalone("TutorialInst" "tutorial_inst" "tutorial")
+install_cyclus_standalone("TutorialRegion" "tutorial_region" "tutorial")
+install_cyclus_standalone("Storage" "storage" "tutorial")
